@@ -1,5 +1,0 @@
-**/*.eslintrc.cjs
-**/*.js
-**/*.d.ts
-!**/*.defs.d.ts
-!**/*.*.js

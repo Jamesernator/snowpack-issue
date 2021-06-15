@@ -1,5 +1,5 @@
 {
-    "name": "example-element",
+    "name": "example-library",
     "type": "module",
     "author": "James \"The Jamesernator\" Browning <contact@jamesernator.io>",
     "license": "ISC",
@@ -9,9 +9,5 @@
     },
     "scripts": {
         "build": "tsc --build"
-    },
-    "dependencies": {
-        "rxjs": "^7.1.0",
-        "example-library": "file:packages/example-library/"
     }
 }
