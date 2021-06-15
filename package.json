@@ -1,0 +1,14 @@
+{
+  "name": "snowpack issue",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "example-element": "file:src/packages/example-element/",
+    "snowpack": "^3.3.6-pre.0",
+    "typescript": "^4.3.2"
+  }
+}

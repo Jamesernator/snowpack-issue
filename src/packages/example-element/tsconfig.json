@@ -1,0 +1,25 @@
+{
+    "include": [
+        "./**/*.ts"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "isolatedModules": true,
+        "module": "esnext",
+        "rootDir": "./",
+        "sourceMap": true,
+        "target": "esnext",
+        "newLine": "lf",
+        "useDefineForClassFields": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "types": [],
+        "noUncheckedIndexedAccess": true,
+        "importsNotUsedAsValues": "error",
+        "forceConsistentCasingInFileNames": true
+    }
+}

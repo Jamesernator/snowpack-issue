@@ -1,0 +1,13 @@
+{
+    "name": "example-element",
+    "type": "module",
+    "author": "James \"The Jamesernator\" Browning <contact@jamesernator.io>",
+    "license": "ISC",
+    "private": true,
+    "devDependencies": {
+        "typescript": "latest"
+    },
+    "scripts": {
+        "build": "tsc --build"
+    }
+}

@@ -1,0 +1,5 @@
+/.build
+/.snowpack
+/web
+/node_modules
+/tsconfig.tsbuildinfo
