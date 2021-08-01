@@ -1,9 +1,3 @@
-*.js
-!*.*.js
-*.js.map
-*.d.ts
-!*.defs.d.ts
-*.d.ts.map
 /node_modules/
 /package-lock.json
 /tsconfig.tsbuildinfo

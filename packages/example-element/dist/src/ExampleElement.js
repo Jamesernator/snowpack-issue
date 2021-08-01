@@ -1,26 +1,23 @@
-import exampleLibrary from "./packages/example-library/exampleLibrary.js";
+import exampleLibrary from "../packages/example-library/exampleLibrary.js";
 import { fromEvent } from "rxjs";
 import { scan } from "rxjs/operators";
-
 export default class ExampleElement extends HTMLElement {
-    readonly #shadowRoot = this.attachShadow({ mode: "closed" });
-
+    #shadowRoot = this.attachShadow({ mode: "closed" });
     constructor() {
         super();
         this.#shadowRoot.innerHTML = `
-            <p>${ exampleLibrary() }</p>
+            <p>${exampleLibrary()}</p>
             
             <button id="increment">Click Me</button>
             <p id="count"></p>
         `;
-        
-        const increment = this.#shadowRoot.getElementById("increment")!;
-        const count = this.#shadowRoot.getElementById("count")!;
-
+        const increment = this.#shadowRoot.getElementById("increment");
+        const count = this.#shadowRoot.getElementById("count");
         fromEvent(increment, "click")
             .pipe(scan(count => count + 1, 0))
             .forEach(n => {
-                count.textContent = String(n);
-            });
+            count.textContent = String(n);
+        });
     }
 }
+//# sourceMappingURL=ExampleElement.js.map

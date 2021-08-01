@@ -20,7 +20,8 @@
         "types": [],
         "noUncheckedIndexedAccess": true,
         "importsNotUsedAsValues": "error",
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./dist/"
     },
     "references": [
         { "path": "./packages/example-library/" }
