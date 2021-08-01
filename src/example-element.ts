@@ -1,3 +1,3 @@
-import ExampleElement from "../packages/example-element/ExampleElement.js";
+import ExampleElement from "example-element/ExampleElement.js";
 
 customElements.define("example-", ExampleElement);
