@@ -22,6 +22,6 @@
     "baseUrl": "./"
   },
   "references": [
-    { "path": "./src/packages/example-element/" }
+    { "path": "./packages/example-element/" }
   ]
 }

@@ -1,6 +1,8 @@
+// @ts-check
 "use strict";
 
-module.exports = {
+/** @type {import("snowpack").SnowpackUserConfig} */
+const config = {
     exclude: ["**/*.mjs"],
     mount: {
         src: "/",
@@ -23,3 +25,5 @@ module.exports = {
     },
     workspaceRoot: "./",
 };
+
+export default config;

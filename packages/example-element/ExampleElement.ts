@@ -1,4 +1,4 @@
-import exampleLibrary from "example-library/exampleLibrary.js";
+import exampleLibrary from "./packages/example-library/exampleLibrary.js";
 import { fromEvent } from "rxjs";
 import { scan } from "rxjs/operators";
 
